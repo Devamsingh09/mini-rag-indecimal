@@ -15,7 +15,7 @@ To demonstrate foundational RAG concepts by building a chatbot that:
 ✔ Loads internal PDFs and converts them into embeddings
 ✔ Stores embeddings in a FAISS vector store for fast retrieval
 ✔ Retrieves only relevant chunks on query
-✔ Generates answers **grounded strictly in retrieved text** using Gemini-1.5 Flash
+✔ Generates answers **grounded strictly in retrieved text** using Gemini-2.5 Flash
 ✔ Shows the retrieved evidence above every answer
 ✔ Prevents hallucinations — if answer is missing, responds:
 **"Information not available in provided documents."**
