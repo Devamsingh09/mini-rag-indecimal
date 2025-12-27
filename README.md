@@ -26,7 +26,7 @@ To demonstrate foundational RAG concepts by building a chatbot that:
 
 | Component   | Library / Tool                           |
 | ----------- | ---------------------------------------- |
-| LLM         | Google Gemini-1.5-Flash                  |
+| LLM         | Google Gemini-2.5-Flash                  |
 | Embeddings  | Sentence-Transformers (all-MiniLM-L6-v2) |
 | Vector DB   | FAISS CPU                                |
 | PDF Parsing | pdfplumber                               |
