@@ -1,9 +1,10 @@
 import os
 import google.generativeai as genai
-from dotenv import load_dotenv
+import streamlit as st   # add this to read secrets
 
-load_dotenv()
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+# Configure Gemini using Streamlit Secrets
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
+
 model = genai.GenerativeModel("gemini-2.5-flash")
 
 def generate_answer(context_chunks, query):
